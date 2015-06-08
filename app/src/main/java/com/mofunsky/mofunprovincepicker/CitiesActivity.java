@@ -105,7 +105,7 @@ public class CitiesActivity extends Activity implements OnWheelChangedListener {
         if (areas == null) {
             areas = new String[]{""};
         }
-        mArea.setViewAdapter(new ArrayWheelAdapter<String>(this, areas));
+        mArea.setViewAdapter(new ArrayWheelAdapter<>(this, areas));
         mArea.setCurrentItem(0);
     }
 

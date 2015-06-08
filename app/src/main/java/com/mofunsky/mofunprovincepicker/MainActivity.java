@@ -5,9 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.mofunsky.mofunprovincepicker.CitiesActivity;
-import com.mofunsky.mofunprovincepicker.R;
-
 public class MainActivity extends Activity
 {
 
